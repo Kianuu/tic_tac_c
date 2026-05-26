@@ -1,0 +1,42 @@
+# === Build outputs ===
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Project binaries (no extension on Linux/Mac builds)
+/tictactoe
+/main
+
+# === Tooling / IDE (machine-specific paths inside) ===
+compile_commands.json
+.clangd
+.cache/
+.vscode/
+.idea/
+.zed/
+
+# === Editor swap/temp files ===
+*.swp
+*.swo
+*~
+
+# === OS noise ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Debug artifacts ===
+*.pdb
+*.ilk
+*.idb
+core
+vgcore.*
+
+# === Compiler caches ===
+*.gch
+*.pch

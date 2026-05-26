@@ -1,0 +1,19 @@
+[
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+      "-std=c2x",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-g",
+      "-o",
+      "tictactoe",
+      "src/main.c",
+      "-mwindows"
+    ],
+    "directory": "C:\\Users\\Kian\\Documents\\Claude\\Projects\\C Toys\\tictactoe",
+    "output": "tictactoe"
+  }
+]
